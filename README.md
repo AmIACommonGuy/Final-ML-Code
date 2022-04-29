@@ -4,7 +4,9 @@ Download RGB + nir dataset: https://drive.google.com/file/d/1Tz92S2YnJ0JN7cmTR9H
 
 Name them RGB_Dataset.zip and RGB+IR_Dataset.zip respectively.
 
-run ipynb files to see results
+run ipynb files to see results:
+4 Bands: https://colab.research.google.com/drive/1vv7qxwJaRFeKLp3y_5RXFcaz6x2YYenu?usp=sharing
+3 Bands: https://colab.research.google.com/drive/1NZs7B77lykQMJNr5kfe30cpR3LfcY55c?usp=sharing
 
 
 ### LIME implementation
