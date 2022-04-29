@@ -15,7 +15,9 @@ run ipynb files to see results:
     LIME modifications were done in `lime/lime_image.py`, while `lime/old_lime_image.py` is the original.
 
 #### Setup Steps
-+ Verify that the dataset is in the current directory. The choice of dataset is specified above, `'./RGB Only Dataset' or './RGB+IR Dataset'`, and will be automatically selected based on the `RGB_or_IR` variable. 
++ Verify that the dataset is in the current directory. The choice of dataset is specified above, `'./RGB Only Dataset' or './RGB+IR Dataset'`, and will be automatically selected based on the `RGB_or_IR` variable.
+
++ Unzip `lime.zip` and put it in the same directory. This is the lime source code with the undated `lime_image.py`
 
 + This needs to use pretrained models for 3 or for 4 channels, so in order to run this, you need to download the models from the colab and save them here, `'model_3.pth' or 'model_4.pth'`.
 
