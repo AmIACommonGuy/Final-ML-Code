@@ -11,7 +11,7 @@ run ipynb files to see results:
 3 Bands: https://colab.research.google.com/drive/1NZs7B77lykQMJNr5kfe30cpR3LfcY55c?usp=sharing
 
 
-### LIME implementation
+### LIME implementation:
     LIME modifications were done in `lime/lime_image.py`, while `lime/old_lime_image.py` is the original.
 
 #### Setup Steps
