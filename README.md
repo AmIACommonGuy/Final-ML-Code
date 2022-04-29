@@ -15,7 +15,7 @@ Run these `.ipynb` files to see results:
 
 
 ### LIME implementation:
-    LIME modifications were done in `lime/lime_image.py`, while `lime/old_lime_image.py` is the original.
+_LIME modifications were done in `lime/lime_image.py`, while `lime/old_lime_image.py` is the original._
 
 #### Setup Steps
 + Verify that the dataset is in the current directory. The choice of dataset is specified above, `'./RGB Only Dataset' or './RGB+IR Dataset'`, and will be automatically selected based on the `RGB_or_IR` variable.
