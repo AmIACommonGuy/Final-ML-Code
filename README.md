@@ -1,14 +1,17 @@
 # Final-ML-Code 
-### SHAP:
+
+### Download Dataset:
 - Download RGB dataset: https://drive.google.com/drive/folders/14p5pHFEjjhjkb2wI5H63rr2i4KYNQ_Xb
-- Download RGB + nir dataset: https://drive.google.com/file/d/1Tz92S2YnJ0JN7cmTR9HBbWfP5ouDjY-g/view
-- Download shap2 zip folder 
+- Download RGB+IR dataset: https://drive.google.com/file/d/1Tz92S2YnJ0JN7cmTR9HBbWfP5ouDjY-g/view
+- Name them RGB_Dataset.zip and RGB+IR_Dataset.zip respectively.
 
-Name them RGB_Dataset.zip and RGB+IR_Dataset.zip respectively.
 
-run ipynb files to see results:
-4 Bands: https://colab.research.google.com/drive/1vv7qxwJaRFeKLp3y_5RXFcaz6x2YYenu?usp=sharing
-3 Bands: https://colab.research.google.com/drive/1NZs7B77lykQMJNr5kfe30cpR3LfcY55c?usp=sharing
+### SHAP:
+- Download `shap2.zip` folder 
+
+Run these `.ipynb` files to see results:
++ 4 Bands: https://colab.research.google.com/drive/1vv7qxwJaRFeKLp3y_5RXFcaz6x2YYenu?usp=sharing
++ 3 Bands: https://colab.research.google.com/drive/1NZs7B77lykQMJNr5kfe30cpR3LfcY55c?usp=sharing
 
 
 ### LIME implementation:
@@ -19,7 +22,7 @@ run ipynb files to see results:
 
 + Unzip `lime.zip` and put it in the same directory. This is the lime source code with the undated `lime_image.py`
 
-+ This needs to use pretrained models for 3 or for 4 channels, so in order to run this, you need to download the models from the colab and save them here, `'model_3.pth' or 'model_4.pth'`.
++ This needs to use pretrained models for 3 or 4 channels, so in order to run this, you need to download the models from the colab and save them here, named: `'model_3.pth' or 'model_4.pth'`.
 
 + The output will be a list of River and Forest images with the respective explainations for each channel, you can see these outputs in images `River_Final.png` and `Forest_Final.png`.
 
