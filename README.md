@@ -12,10 +12,16 @@ run ipynb files to see results:
 
 
 ### LIME implementation
-To run the lime implementation you will use the `main_lime.py`. In that file there is a variable on line 56 
-```
-RGB_or_IR = 'IR' # 'RGB'
-```
-Here you toggle if you want to use the 4channel NIR implmentation or the 3channel RGB implementation. The output will be a list of River and Forest images with the respective explainations for each channel, you can see these outputs in images `River_Final.png` and `Forest_Final.png`. Verify that the dataset is in the current directory. The choice of dataset is specified above, `'./RGB Only Dataset' or './RGB+IR Dataset'`, and will be automatically selected based on the `RGB_or_IR` variable. As will the pretrained model for 3 or for 4 channels, `'model_3.pth' or 'model_4.pth'`
+    LIME modifications were done in `lime/lime_image.py`, while `lime/old_lime_image.py` is the original.
 
-> LIME modifications were done in `lime/lime_image.py`, while `lime/old_lime_image.py` is the original. 
+#### Setup Steps
++ Verify that the dataset is in the current directory. The choice of dataset is specified above, `'./RGB Only Dataset' or './RGB+IR Dataset'`, and will be automatically selected based on the `RGB_or_IR` variable. 
+
++ This needs to use pretrained models for 3 or for 4 channels, so in order to run this, you need to download the models from the colab and save them here, `'model_3.pth' or 'model_4.pth'`.
+
++ The output will be a list of River and Forest images with the respective explainations for each channel, you can see these outputs in images `River_Final.png` and `Forest_Final.png`.
+
++ To run the lime implementation you will use the `main_lime.py`. In that file there is a variable on line 56, toggle this variable if you want to use the 4channel NIR implmentation or the 3channel RGB implementation.
+    ```
+    RGB_or_IR = 'IR' # 'RGB'
+    ```
